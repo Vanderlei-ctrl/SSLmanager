@@ -152,6 +152,6 @@ echo -e "\033[1;33m- - ->>C A N A L \033[01;34mhttp://t.me/PayloadHTTP"
 echo -e "\033[1;33m- - ->>F E I T O  P O R \033[01;34m Gui @LindoFuLL"
 sleep 1
 fun_bar 'inst_pct'
-[[ -f "/usr/sbin/ufw" ]] && ufw allow 443/tcp ; ufw allow 80/tcp ; ufw allow 3128/tcp ; ufw allow 8799/tcp ; ufw allow 8080/tcp
+[[ -f "/usr/sbin/ufw" ]] && ufw allow 443/tcp ; ufw allow 444/tcp ; ufw allow 80/tcp ; ufw allow 3128/tcp ; ufw allow 8799/tcp ; ufw allow 8080/tcp
 clear
 echo ""
