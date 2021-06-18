@@ -156,8 +156,8 @@ fun_bar 'inst_pct'
 clear
 echo ""
 echo "###########ADICIONANDO USUÁRIO NO SSH E NO SSL...############"
-useradd -p $(openssl passwd -crypt $teste1020) $teste1020
-useradd -p $(openssh passwd -crypt $PASS) $USER
+adduser teste1020
+addpasswd teste102030
 sleep 3
 echo "###########REINICIANDO SERVICOS DE VAN...###########"
 service stunnel4 start
